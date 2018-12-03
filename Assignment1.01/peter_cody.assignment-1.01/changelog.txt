@@ -1,0 +1,13 @@
+1. Started project.
+
+2. Got a empty board with borders to print in terminal.
+
+3. Fixed a bug where printing rooms onto the board caused '.' Chars to appear everywhere by switching the order I used variable indices in a nested for-loop.
+
+4. Terminal now prints game board and 5 rooms. Random number generator is using the same values eveytime.
+
+5. Created a pseudo random range method and added a seed value to stand to get some good rand rands.
+
+6. Board now generates very randomly.
+
+7. Added methods tunnelSide() to add horizontal hallways and tunnelUp() to add hallway up and down. Also, added method addHallways() which adds a hallway between each room and a reference point somewhere on the board. Board now generates a at least 5 rooms and hallways that connect every room.
